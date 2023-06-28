@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Index Page</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<center>
+    <div class="header">
+    <h1>JALA Academy</h1>
+    <h2>Login Credentials</h2>
+    <p>Email: training@jalaacademy.com</p>
+    <p>Password: jobprogram</p>
+    <p class="yellow-bg">Learn Everything on Real-Time Scenarios</p>
+  </div>
+</center>
+  <form action="/signin" method="POST">
+    <label>Email:</label>
+    <input type="email" name="email" required><br>
+    <label>Password:</label>
+    <input type="password" name="password" required><br>
+    <input type="submit" value="Sign In">
+  </form>
+
+  <button onclick="location.href='forgot.html'">Forgot Password</button>
+  <button onclick="location.href='admin.html'">Admin Login</button>
+</body>
+</html>
